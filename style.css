@@ -11,6 +11,7 @@
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url(./assets/moon-stars.svg);
+  transition: 0.5;
 }
 .light {
   --text-color: black;
@@ -19,6 +20,7 @@
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --switch-bg-url: url(./assets/sun.svg);
+  transition: 0.5;
 }
 body {
   background: var(--bg-url) no-repeat top center/cover;
@@ -81,6 +83,7 @@ body * {
 
 #switch button:hover {
   outline: 8px solid var(--highlight-color);
+  transition: 0.5;
 }
 
 #switch span {
@@ -159,6 +162,7 @@ footer {
 
   .light {
     --bg-url: url(./assets/bg-desktop-light.jpg);
+    transition: 0.5;
   }
 }
 
